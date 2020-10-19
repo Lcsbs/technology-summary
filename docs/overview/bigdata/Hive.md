@@ -1,0 +1,8 @@
+1. [Hive 简介及核心概念](docs/bigdata/notes/Hive简介及核心概念.md)
+2. [Linux 环境下 Hive 的安装部署](docs/bigdata/notes/installation/Linux环境下Hive的安装部署.md)
+4. [Hive CLI 和 Beeline 命令行的基本使用](docs/bigdata/notes/HiveCLI和Beeline命令行的基本使用.md)
+6. [Hive 常用 DDL 操作](docs/bigdata/notes/Hive常用DDL操作.md)
+7. [Hive 分区表和分桶表](docs/bigdata/notes/Hive分区表和分桶表.md)
+8. [Hive 视图和索引](docs/bigdata/notes/Hive视图和索引.md)
+9. [Hive 常用 DML 操作](docs/bigdata/notes/Hive常用DML操作.md)
+10. [Hive 数据查询详解](docs/bigdata/notes/Hive数据查询详解.md)
