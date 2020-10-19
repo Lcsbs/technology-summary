@@ -8,21 +8,16 @@
   <meta name="description" content="Description">
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="static/css/vue.css">
   <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/prism.css"> -->
-  <link rel="stylesheet" href="./static/css/sidebar.css">
+  <link rel="stylesheet" href="static/css/sidebar.css">
 </head>
 
 <body>
   <div id="app"></div>
   <!-- docsify-edit-on-github -->
-  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+  <script src="static/js/index.js"></script>
   <script>
-    // 离线支持
-    if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('sw.js')
-    }
-
     window.$docsify = {
       name: 'technology-summary',
       repo: 'https://github.com/Lcsbs/technology-summary',
@@ -30,6 +25,7 @@
       maxLevel: 5,//最大支持渲染的标题层级
       coverpage: true,//封面,_coverpage.md
 	  loadSidebar: true, //定制侧边栏,_sidebar.md
+	  //formatUpdated: '{MM}/{DD} {HH}:{mm}', //显示文档更新日期，没生效
 	  subMaxLevel: 6, //subMaxLevel类型是number(数字)，表示显示的目录层级
 	      alias: {
 			'/.*/_sidebar.md': '/_sidebar.md',
@@ -45,28 +41,42 @@
         // 搜索标题的最大程级, 1 - 6
         depth: 3,
       },
+	count:{
+		countable:true, //开启字数统计
+		fontsize:'0.9em',
+		color:'rgb(90,90,90)',
+		language:'chinese'
+	},
       plugins: [
         EditOnGithubPlugin.create('https://github.com/Lcsbs/technology-summary')
       ]
     }
   </script>
   
-  <!-- plugins -->
-  <script src="./static/js/docsify-sidebar-collapse.min.js"></script>
+  <!-- 支持离线阅读模式 -->
+  <script>
+	if (typeof navigator.serviceWorker !== 'undefined') {
+		navigator.serviceWorker.register('sw.js')
+	 }
+  </script>
+  <!-- 字数统计 -->
+  <script src="static/js/countable.js"></script>
+  <!-- 侧边栏plugins -->
+  <script src="static/js/docsify-sidebar-collapse.min.js"></script>
   
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="static/js/docsify.min.js"></script>
   <!--Java代码高亮-->
   <!-- <script src="//unpkg.com/prismjs/components/prism-java.js"></script> -->
   <!--全文搜索,直接用官方提供的无法生效-->
-  <script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
+  <script src="static/js/search.min.js"></script>
   <!--谷歌统计
   <script src="//unpkg.com/docsify" data-ga="UA-138586553-1"></script>
   <script src="//unpkg.com/docsify/lib/plugins/ga.js"></script>
   -->
   <!-- 复制到剪贴板 -->
-  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="static/js/docsify-copy-code.min.js"></script>
   <!-- 图片缩放 -->
-  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+  <script src="static/js/zoom-image.js"></script>
 </body>
 
 </html>
