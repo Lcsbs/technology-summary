@@ -1,20 +1,10 @@
 > 这部分很多内容比如大厂面经、真实面经分析被移除，详见[完结撒花！JavaGuide 面试突击版来啦！](./docs/javaguide面试突击版.md)。
 
-1. [【备战面试 1】程序员的简历就该这样写](docs/essential-content-for-interview/PreparingForInterview/程序员的简历之道.md)
-2. [【备战面试 2】初出茅庐的程序员该如何准备面试？](docs/essential-content-for-interview/PreparingForInterview/interviewPrepare.md)
-3. [【备战面试 3】7 个大部分程序员在面试前很关心的问题](docs/essential-content-for-interview/PreparingForInterview/JavaProgrammerNeedKnow.md)
-4. [【备战面试 4】Github 上开源的 Java 面试/学习相关的仓库推荐](docs/essential-content-for-interview/PreparingForInterview/JavaInterviewLibrary.md)
-5. [【备战面试 5】如果面试官问你“你有什么问题问我吗？”时，你该如何回答](docs/essential-content-for-interview/PreparingForInterview/面试官-你有什么问题要问我.md)
+1. **[【备战面试 1】程序员的简历就该这样写](docs/essential-content-for-interview/PreparingForInterview/程序员的简历之道.md)**
+2. **[【备战面试 2】初出茅庐的程序员该如何准备面试？](docs/essential-content-for-interview/PreparingForInterview/interviewPrepare.md)**
+3. **[【备战面试 3】7 个大部分程序员在面试前很关心的问题](docs/essential-content-for-interview/PreparingForInterview/JavaProgrammerNeedKnow.md)**
+4. **[【备战面试 4】Github 上开源的 Java 面试/学习相关的仓库推荐](docs/essential-content-for-interview/PreparingForInterview/JavaInterviewLibrary.md)**
+5. **[【备战面试 5】如果面试官问你“你有什么问题问我吗？”时，你该如何回答](docs/essential-content-for-interview/PreparingForInterview/面试官-你有什么问题要问我.md)**
 6. [【备战面试 6】应届生面试最爱问的几道 Java 基础问题](docs/essential-content-for-interview/PreparingForInterview/应届生面试最爱问的几道Java基础问题.md)
-7. [【备战面试 6】美团面试常见问题总结(附详解答案)](docs/essential-content-for-interview/PreparingForInterview/美团面试常见问题总结.md)
-8. [程序员如何准备技术面试](docs/interview-column/程序员如何准备技术面试.md)
-9. [大厂面经001](docs/interview-column/interview-summary.md)
-10. [大厂面经002](docs/interview-column/Java后端.md)
-11. [云祁@CSDN](./云祁@CSDN.md)
-    1. [Hadoop 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/HadoopInterview.md)
-    2. [Hive 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/HiveSummary.md)
-    3. [Hive 基础知识及优化总结](docs/interview-prepare/大数据面经/CSDN@云祁/Hive 基础知识及优化总结.md)
-    4. [Hbase 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/HbaseSummary.md)
-    5. [Spark 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/SparkSummary.md)
-    6. [Flume 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/FlumeSummary.md)
-    7. [Kafka 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/KafkaSummary.md)
+7. **[【备战面试 6】美团面试常见问题总结(附详解答案)](docs/essential-content-for-interview/PreparingForInterview/美团面试常见问题总结.md)**
+
