@@ -1,3 +1,8 @@
+本仓库以技术总结为主，从后端开发到大数据应用进行系统性总结整理，可以作为你的知识仓库作备忘，也可以作为面试突击宝典。
+为提高阅读体验，本仓库也部署在国内码云上，方便面试突击的同学，适合手机端阅读，上班坐公交刷下，欢迎 [在线阅读](https://lcsbs.gitee.io/technology-summary) ，加油，奥利给！
+如果你也想完善本仓库，欢迎PR！觉得不错，请点击右上角 **Star** ，给作者持续更新的信心！
+
+
 - [编程语言](docs/overview/programing-language/programing-language-overview.md)
   - [Java](./docs/overview/Java/JavaOverview.md)
     - [基础](./docs/overview/Java/JavaBasis.md)
