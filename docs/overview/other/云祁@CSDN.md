@@ -1,6 +1,6 @@
 1. [Hadoop 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/HadoopInterview.md)
 2. [Hive 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/HiveSummary.md)
-3. [Hive 基础知识及优化总结](docs/interview-prepare/大数据面经/CSDN@云祁/Hive 基础知识及优化总结.md)
+3. [Hive 基础知识及优化总结](docs/interview-prepare/大数据面经/CSDN@云祁/Hive基础知识及优化总结.md)
 4. [Hbase 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/HbaseSummary.md)
 5. [Spark 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/SparkSummary.md)
 6. [Flume 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/FlumeSummary.md)

@@ -262,7 +262,7 @@
     - [云祁@CSDN](docs/overview/other/云祁@CSDN.md)
       - [Hadoop 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/HadoopInterview.md)
       - [Hive 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/HiveSummary.md)
-      - [Hive 基础知识及优化总结](docs/interview-prepare/大数据面经/CSDN@云祁/Hive 基础知识及优化总结.md)
+      - [Hive 基础知识及优化总结](docs/interview-prepare/大数据面经/CSDN@云祁/Hive基础知识及优化总结.md)
       - [Hbase 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/HbaseSummary.md)
       - [Spark 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/SparkSummary.md)
       - [Flume 相关面试题总结](docs/interview-prepare/大数据面经/CSDN@云祁/FlumeSummary.md)
