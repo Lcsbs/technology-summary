@@ -49,3 +49,33 @@ kafka的ack机制：在kafka发送数据的时候，每次发送消息都会有�
 
 Kafka实现：1. 高可用，副本机制；2. 高吞吐率，单个borker可处理千个分区及每秒百万级别的消息量；
 
+## Spark
+
+### spark-rdd
+
+#### RDD的两种创建方式
+
+1. 通过现有集合创建
+
+```scala
+    //初始化SparkContext，程序创建应用上下文
+    val conf = new SparkConf().setAppName("SparkRddTask").setMaster("local[2]")
+    val sparkContext = new SparkContext(conf)
+
+    //1. 通过现有集合创建RDD
+    val arr: Array[Int] = Array(1, 2, 3, 4, 5)
+    val arrRDD: RDD[Int] = sparkContext.parallelize(arr)
+    //查看分区数
+    arrRDD.getNumPartitions
+    //明确指定分区数
+    sparkContext.parallelize(arr, 2)
+```
+
+
+
+2. 引用外部存储系统中的数据集
+
+引用外部存储系统中的数据集,例如本地文件系统,HDFS,Hbase或支持Hadoop InputFormat 的任何数据源.
+
+spark 默认读取hdfs文件,读取本地文件需要加file://
+

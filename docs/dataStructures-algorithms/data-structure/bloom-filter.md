@@ -160,7 +160,7 @@ public class MyBloomFilter {
 
 Output:
 
-```
+```shell
 false
 false
 true
