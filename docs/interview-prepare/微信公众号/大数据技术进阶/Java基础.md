@@ -1,4 +1,4 @@
-## 最新整理JAVA面试题附答案
+## JAVA基础
 
 大数据技术进阶 [大数据技术进阶](javascript:void(0);) *4月29日*
 
@@ -248,7 +248,7 @@ Collections 是一个包装类，包含了很多静态方法，不能被实例�
 List、Set、Map 的区别主要体现在两个方面：元素是否有序、是否允许元素重复。
 三者之间的区别，如下表：
 
-\21. HashMap 和 Hashtable 有什么区别？
+21. HashMap 和 Hashtable 有什么区别？
 
 HashMap是继承自AbstractMap类，而HashTable是继承自Dictionary类。不过它们都实现了同时实现了map、Cloneable（可复制）、Serializable（可序列化）这三个接口。
 Hashtable比HashMap多提供了elments() 和contains() 两个方法。

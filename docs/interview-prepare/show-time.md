@@ -32,7 +32,9 @@ Spark、hive、Storm
 
 运营平台、提供接口
 
+负责数据开发和平时维护性工作，从数据埋点，发送到消息队列，存储分析；离线路线-hive、sparksql；
 
+实时spark-streaming、Storm；
 
 突击：
 
